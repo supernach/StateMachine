@@ -11,7 +11,7 @@ extern Gpio_Config_t Led;
 
 
 void FSM_LedInit( void );
-void FSM_LedRun( void );
+//void FSM_LedRun( void );
 
 uint8_t Init_Run( void* data );
 uint8_t Blink100_Run( void* data );

@@ -61,10 +61,10 @@ void FSM_LedInit( void )
 	IO_Init( &Led );
 }
 
-void FSM_LedRun( void )
+/*void FSM_LedRun( void )
 {
 	StateMachine_Run( &FSM_Led );
-}
+}*/
 
 uint8_t Init_Run( void* data )
 {
