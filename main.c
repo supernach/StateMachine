@@ -325,6 +325,8 @@ main()
 	
 	while (1)
 	{
-		FSM_LedRun( );
+		//FSM_LedRun( );
+		
+		FSM_Led.Run( &FSM_Led );
 	}
 }
